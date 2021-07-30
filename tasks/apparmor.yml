@@ -51,6 +51,8 @@
     - apparmor
     - CIS-UBUNTU2004-1.6.1.3
     - CIS-UBUNTU2004-1.6.1.4
+  environment:
+    PATH: /bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
 - name: enable apparmor
   become: 'yes'

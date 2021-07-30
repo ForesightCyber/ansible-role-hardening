@@ -1,4 +1,4 @@
 # {{ ansible_managed }}
 
 sshd : ALL : ALLOW
-ALL: LOCAL, 127.0.0.1
+ALL: LOCAL, 127.0.0.1, {{ hosts_allowed }}
